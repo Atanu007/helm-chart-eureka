@@ -21,7 +21,7 @@ spring:
   cloud:
     config:
       enabled: false
-      uri:
+      uri: http://central-config:8789
 
 global:
   useConfigServerBootstrap: false
