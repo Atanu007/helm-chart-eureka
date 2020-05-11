@@ -1,0 +1,10 @@
+dependencies:
+- name: mysql
+  version: 0.3.6
+  repository: https://kubernetes-charts.storage.googleapis.com
+  condition: mysql.enabled
+- name: spring-eureka-server
+  version: 1.0.0
+  repository: https://github.com/Atanu007/helm-chart-eureka.git
+  condition: eureka.enabled
+
